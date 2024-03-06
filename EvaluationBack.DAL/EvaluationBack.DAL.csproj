@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EvaluationBack.DAL.Contracts\EvaluationBack.DAL.Contracts.csproj" />
     <ProjectReference Include="..\EvaluationBack.Models\EvaluationBack.Models.csproj" />
   </ItemGroup>
 

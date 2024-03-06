@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EvaluationBack.DAL\EvaluationBack.DAL.csproj" />
+    <ProjectReference Include="..\EvaluationBack.Services.Contracts\EvaluationBack.Services.Contracts.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">

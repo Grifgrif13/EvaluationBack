@@ -1,10 +1,5 @@
 ﻿using EvaluationBack.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EvaluationBack.DAL
 {
@@ -15,19 +10,44 @@ namespace EvaluationBack.DAL
         }
 
         // DB sets
-        public DbSet<Model1> Model1 { get; set; }
+        public DbSet<Evenement> Evenement { get; set; }
 
+        /// <summary>
+        /// Action sur OnModelCreating.
+        /// </summary>
+        /// <param name="modelBuilder"></param>
         private void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
             this.OnModelInstantiated(modelBuilder);
         }
 
+        /// <summary>
+        /// Instanciation de la table évènement
+        /// </summary>
+        /// <param name="modelBuilder"></param>
         private void OnModelInstantiated(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Model1>(entity =>
+            modelBuilder.Entity<Evenement>(entity =>
             {
                 entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.Title)
+                .IsRequired()
+                .HasMaxLength(150);
+
+                entity.Property(e => e.Description)
+                .IsRequired()
+                .HasMaxLength(250);
+
+                entity.Property(e => e.Date)
+                .IsRequired()
+                .HasMaxLength(150);
+                
+                entity.Property(e => e.Location)
+                .IsRequired()
+                .HasMaxLength(150);
             });
         }
     }
