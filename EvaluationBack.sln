@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34205.153
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluationBack.Azure", "EvaluationBack\EvaluationBack.Azure.csproj", "{C8B95310-CF31-4EE9-A979-6E11A1596418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluationBack.DAL", "EvaluationBack.DAL\EvaluationBack.DAL.csproj", "{B738FB00-89B2-4D40-9EFF-26FE23FB55DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluationBack.DAL.Contracts", "EvaluationBack.DAL.Contracts\EvaluationBack.DAL.Contracts.csproj", "{0E708FDD-833F-403E-A4A4-7A5C315A902A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluationBack.Services", "EvaluationBack.Services\EvaluationBack.Services.csproj", "{B8CC3747-1BEE-40EF-A13F-4E4133225271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluationBack.Services.Contracts", "EvaluationBack.Services.Contracts\EvaluationBack.Services.Contracts.csproj", "{0A69D6B3-055C-433F-90D4-98CFB32473D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluationBack.Models", "EvaluationBack.Models\EvaluationBack.Models.csproj", "{376209B0-8FD0-48EF-B715-B705E63F8931}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8B95310-CF31-4EE9-A979-6E11A1596418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B95310-CF31-4EE9-A979-6E11A1596418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B95310-CF31-4EE9-A979-6E11A1596418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B95310-CF31-4EE9-A979-6E11A1596418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B738FB00-89B2-4D40-9EFF-26FE23FB55DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B738FB00-89B2-4D40-9EFF-26FE23FB55DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B738FB00-89B2-4D40-9EFF-26FE23FB55DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B738FB00-89B2-4D40-9EFF-26FE23FB55DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E708FDD-833F-403E-A4A4-7A5C315A902A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E708FDD-833F-403E-A4A4-7A5C315A902A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E708FDD-833F-403E-A4A4-7A5C315A902A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E708FDD-833F-403E-A4A4-7A5C315A902A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CC3747-1BEE-40EF-A13F-4E4133225271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CC3747-1BEE-40EF-A13F-4E4133225271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CC3747-1BEE-40EF-A13F-4E4133225271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CC3747-1BEE-40EF-A13F-4E4133225271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A69D6B3-055C-433F-90D4-98CFB32473D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A69D6B3-055C-433F-90D4-98CFB32473D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A69D6B3-055C-433F-90D4-98CFB32473D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A69D6B3-055C-433F-90D4-98CFB32473D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376209B0-8FD0-48EF-B715-B705E63F8931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376209B0-8FD0-48EF-B715-B705E63F8931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376209B0-8FD0-48EF-B715-B705E63F8931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376209B0-8FD0-48EF-B715-B705E63F8931}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD0B14E1-2898-4EF3-87EF-8E42CE1D3C2F}
+	EndGlobalSection
+EndGlobal
